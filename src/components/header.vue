@@ -1,14 +1,14 @@
 <template>
   <div class="stage-header">
     <div class="header-left">
-      <img src="../assets/message.png" class="header-message">
+      <img src="../../static/message.png" class="header-message">
     </div>
     <div class="header-center" @click="freshPage" >
-      <img src="../assets/logo.png" class="header-logo">
-      <img src="../assets/refresh.png" class="header-refresh" :class="{'rotate': refresh == true}">
+      <img src="../../static/logo.png" class="header-logo">
+      <img src="../../static/refresh.png" class="header-refresh" :class="{'rotate': refresh == true}">
     </div>
     <div class="header-right">
-      <img src="../assets/search.png" class="header-search" @click="search">
+      <img src="../../static/search.png" class="header-search" @click="search">
     </div>
   </div>
 </template>

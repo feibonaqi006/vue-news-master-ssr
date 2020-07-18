@@ -85,7 +85,7 @@ export default {
 }
 .goBack {
   float: right;
-  background: url("../assets/back.png") no-repeat;
+  background: url("../../static/back.png") no-repeat;
   background-size: 100%;
   height: 40px;
   width: 30px;
@@ -104,7 +104,7 @@ export default {
   border-radius: 30px;
   border-color: #ffffff;
   padding-left: 80px;
-  background: url("../assets/net.png") no-repeat;
+  background: url("../../static/net.png") no-repeat;
   background-color: rgba(255,110,112,0.2);
   background-position: 7px;
   background-size: 40px;

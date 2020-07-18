@@ -3,6 +3,7 @@
     <my-header></my-header>
     <tabs :tab-list='tabList'>
       <router-view></router-view>
+<!--      <nuxt-child></nuxt-child>-->
     </tabs>
     <search v-if="flagSearch == true"></search>
   </div>
